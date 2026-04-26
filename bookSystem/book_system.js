@@ -20,10 +20,6 @@ let books = [];
     }
 }
 
-function clearInputs() {
-
-}
-
 function showbooks() {
     const booksDiv = books.map((book, index) => `<h1>book Number: ${index + 1}</h1>
         <p><strong>Book Name: </strong>${book.name}</p>
